@@ -1,9 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Dashboard(){
-    return(
+function Dashboard() {
+    return (
         <div>
-            this is dashboard
+            <p>this is dashboard</p>
+            <Link to="/products" className="underline">
+                go to products
+            </Link>
         </div>
     )
 }
