@@ -8,7 +8,9 @@ import PopularProducts from './PopularProducts'
 function Dashboard() {
     return (
         <div className="flex flex-col gap-4">
-            <DashboardStatsGrid />
+            <div className='bg-blue-700'>
+                <DashboardStatsGrid />
+            </div>
             <div className="flex flex-row gap-4 w-full">
                 <TransactionChart />
                 <BuyerProfileChart />

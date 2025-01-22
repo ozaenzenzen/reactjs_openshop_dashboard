@@ -10,7 +10,7 @@ const linkClasses =
 
 function Sidebar() {
     return (
-        <div className="bg-neutral-900 w-60 p-3 flex flex-col text-white">
+        <div className="bg-neutral-900 w-60 h-screen p-3 flex flex-col text-white">
             <div className="flex item-center gap-2 px-1 py-3">
                 <FcBullish fontSize={24} />
                 <span className="text-neutral-100 text-lg">OpenShop</span>
